@@ -1,0 +1,24 @@
+public class Salario {
+	public static void main (String args[]) {
+		Scanner ler = new Scanner(System.in);
+		
+		double salario, ndp, salariofinal;
+		
+		//leia  salario
+		System.out.println("Digite o seu salário:");
+		salario = ler.nextDouble();
+		
+		//leia  ndp
+		System.out.println("Digite o seu número dependente:");
+		ndp = ler.nextDouble();
+		
+		salariofinal = ( 55* ndp + salario);
+		
+		//escreva salariofinal
+		System.out.println("o seu salário final é:" + salariofinal);
+		ler.close();
+		
+		
+		
+	}
+}
