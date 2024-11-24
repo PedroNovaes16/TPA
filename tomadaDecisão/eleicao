@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class eleicao {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		
+		int el,an,i;
+	
+	System.out.println("coloque o ano da próxima eleição");
+	el = ler.nextInt();
+	
+	System.out.println("coloque a sua data de nascimento");
+	an = ler.nextInt();
+	
+	i = el - an;
+	
+	System.out.println("sua idade é " + i);
+	
+	if(i<16) {
+		System.out.println(" Não pode votar");
+
+		
+	  }else {
+		  System.out.println("Pode votar");
+		  	  }
+		ler.close();
+
+	}
+	
+	
+}
