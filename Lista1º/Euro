@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Euro {
+	public static void main (String args[]) {
+		Scanner ler = new Scanner(System.in);
+		
+		double e, c, r;
+		
+		//leia  euro
+		System.out.println("Digite o valor em euros:");
+		e = ler.nextDouble();
+		
+		//leia  a cotação
+		System.out.println("Digite o valor da cotação:");
+		c = ler.nextDouble();
+		
+		r=e*c ;
+		
+		//escreva Conversão
+		System.out.println("Valor convertido:" + r);
+		ler.close();
+	}
+}
