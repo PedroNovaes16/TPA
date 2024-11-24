@@ -1,0 +1,12 @@
+public class Medias {
+	public static void main(String args[]) {
+		//variaveis
+		double n1, n2, m;
+		
+		n1 = 6;
+		n2 = 5;
+		m = (n1+n2)/2;
+		System.out.println("Sua média é " + m);
+		
+	}
+}
