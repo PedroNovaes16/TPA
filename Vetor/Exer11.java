@@ -11,12 +11,12 @@ public class busca {
         
         System.out.println("Digite os 10 elementos para preencher o vetor:");
         for (int i = 0; i < 10; i++) {
-            System.out.print("Número " + (i + 1) + ": ");
+            System.out.print("NÃºmero " + (i + 1) + ": ");
             A[i] = ler.nextInt();
         }
         
         for (int j = 0; j < 10; j++) {
-            System.out.print("\nDigite o número que deseja buscar no vetor: ");
+            System.out.print("\nDigite o nÃºmero que deseja buscar no vetor: ");
             int X = ler.nextInt();
             
             int encontrado = -1;
@@ -30,9 +30,10 @@ public class busca {
             }
             
             if (encontrado != -1) {
-                System.out.println("\nO número " + X + " está presente no vetor na posição " + encontrado + ".");
+                encontrado++;
+                System.out.println("\nO nÃºmero " + X + " estÃ¡ presente no vetor na posiÃ§Ã£o " + encontrado + ".");
             } else {
-                System.out.println("\nO número " + X + " não foi encontrado no vetor.");
+                System.out.println("\nO nÃºmero " + X + " nÃ£o foi encontrado no vetor.");
             }
         }
 
